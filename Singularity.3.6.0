@@ -95,7 +95,10 @@ From: ubuntu:18.04
   apt-get install -y --no-install-recommends \
     ca-certificates \
     wget \
-    gdebi-core
+    gdebi-core \
+    libssl1.0.0 \
+    libssl-dev
+    
   wget \
     --no-verbose \
     -O rstudio-server.deb \
