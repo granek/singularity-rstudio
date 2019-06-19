@@ -79,7 +79,7 @@ From: ubuntu:18.04
   echo "R_LIBS_SITE=/library:\${R_LIBS_SITE}" >> /usr/lib/R/etc/Renviron.site
 
   # Clean up
-  rm -rf /var/lib/apt/lists/*
+  # rm -rf /var/lib/apt/lists/*
 
 #------------------------------------------
 # nickjer/singularity-r
