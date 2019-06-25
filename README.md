@@ -1,9 +1,13 @@
-# Singularity RStudio Server
-
 [![Singularity Hub](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/3181)
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Singularity image for [RStudio Server]. It was built on top of the base
+This image is not intended to be used directly.  It exists as the basis for [granek/singularity-rstudio-base](https://github.com/granek/singularity-rstudio-base).
+
+# Singularity RStudio Server
+
+Singularity image for [RStudio Server]. 
+
+It was built on top of the base
 Singularity image [nickjer/singularity-r].
 
 This is still a work in progress.
