@@ -41,6 +41,7 @@ From: ubuntu:18.04
 %post
   # Software versions
   export R_VERSION=3.6.0
+  export DEBIAN_FRONTEND=noninteractive
 
   # Get dependencies
   apt-get update
